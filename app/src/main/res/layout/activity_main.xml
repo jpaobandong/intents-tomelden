@@ -91,9 +91,9 @@
         android:layout_height="wrap_content"
         android:text="@string/btn_toast"
         app:layout_constraintBottom_toTopOf="@+id/btnNext"
-        app:layout_constraintEnd_toEndOf="@id/btnCamera"
-        app:layout_constraintStart_toStartOf="@id/btnCamera"
-        app:layout_constraintTop_toBottomOf="@+id/btnCamera"
+        app:layout_constraintEnd_toEndOf="@id/btnES"
+        app:layout_constraintStart_toStartOf="@id/btnES"
+        app:layout_constraintTop_toBottomOf="@+id/btnES"
         />
 
     <Button
