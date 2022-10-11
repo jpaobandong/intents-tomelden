@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Intents Application - Tomelden</string>
+    <string name="act1_title">MOBCOM1\nActivities and Intents</string>
+    <string name="act2_title">TOMELDEN\nActivities and Intents</string>
+    <string name="btn_web">Google</string>
+    <string name="btn_dial">Dialer</string>
+    <string name="btn_mail">E-mail</string>
+    <string name="btn_camera">Camera</string>
+    <string name="btn_toast">Toast</string>
+    <string name="btn_nxt">Next</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_back">Back</string>
+</resources>
