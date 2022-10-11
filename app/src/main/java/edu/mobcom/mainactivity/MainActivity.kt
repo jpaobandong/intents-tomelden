@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val toastBtn: Button = findViewById(R.id.btnToast)
         val nxtBtn: Button = findViewById(R.id.btnNext)
         val dialBtn: Button = findViewById(R.id.btnDial)
+        val cameraBtn: Button = findViewById(R.id.btnCamera)
 
         nxtBtn.setOnClickListener {
             val i = Intent(this, MainActivity2::class.java)
