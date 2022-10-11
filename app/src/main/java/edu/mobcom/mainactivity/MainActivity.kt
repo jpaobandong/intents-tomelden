@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val toastBtn: Button = findViewById(R.id.btnToast)
         val nxtBtn: Button = findViewById(R.id.btnNext)
         val dialBtn: Button = findViewById(R.id.btnDial)
-        val cameraBtn: Button = findViewById(R.id.btnCamera)
+        val eScheduler: Button = findViewById(R.id.btnES)
 
         nxtBtn.setOnClickListener {
             val i = Intent(this, MainActivity2::class.java)
@@ -55,6 +55,11 @@ class MainActivity : AppCompatActivity() {
 
         toastBtn.setOnClickListener {
             Toast.makeText(this@MainActivity, "Hello I am a disguised Toast", Toast.LENGTH_SHORT).show()
+        }
+
+        eScheduler.setOnClickListener {
+            val eventSchedulerIntent = Intent(this, EventScheduler::class.java)
+            startActivity(eventSchedulerIntent)
         }
     }
 }

@@ -5,9 +5,13 @@
     <string name="btn_web">Google</string>
     <string name="btn_dial">Dialer</string>
     <string name="btn_mail">E-mail</string>
-    <string name="btn_camera">Camera</string>
+    <string name="btn_es">Event Scheduler</string>
     <string name="btn_toast">Toast</string>
     <string name="btn_nxt">Next</string>
     <string name="btn_home">Home</string>
     <string name="btn_back">Back</string>
+    <string name="txt_subject">Subject</string>
+    <string name="txt_email">sample@email.com</string>
+
+
 </resources>
