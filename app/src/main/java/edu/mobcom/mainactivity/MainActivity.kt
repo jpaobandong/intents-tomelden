@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         val nxtBtn: Button = findViewById(R.id.btnNext)
         val dialBtn: Button = findViewById(R.id.btnDial)
         val eScheduler: Button = findViewById(R.id.btnES)
+        val order: Button = findViewById(R.id.btnOrder)
 
         nxtBtn.setOnClickListener {
             val i = Intent(this, MainActivity2::class.java)
@@ -60,6 +61,11 @@ class MainActivity : AppCompatActivity() {
         eScheduler.setOnClickListener {
             val eventSchedulerIntent = Intent(this, EventScheduler::class.java)
             startActivity(eventSchedulerIntent)
+        }
+
+        order.setOnClickListener {
+            val iOrder = Intent(this@MainActivity, Order::class.java)
+            startActivity(iOrder)
         }
     }
 }

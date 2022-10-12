@@ -10,8 +10,26 @@
     <string name="btn_nxt">Next</string>
     <string name="btn_home">Home</string>
     <string name="btn_back">Back</string>
+    <string name="btn_order">Order</string>
     <string name="txt_subject">Subject</string>
     <string name="txt_email">sample@email.com</string>
+    <string name="cust_name">Complete Name</string>
+    <string name="cust_num">Mobile Number</string>
+    <string name="cust_email">Customer Email</string>
+    <string name="order_details">Details</string>
 
+    <string-array name="bev_array">
+        <item>Brewed Coffee</item>
+        <item>Latte</item>
+        <item>Macchiato</item>
+        <item>Americano</item>
+    </string-array>
+
+    <string-array name="food_array">
+        <item>Club Sandwich</item>
+        <item>Fries</item>
+        <item>Pizza 16</item>
+        <item>Zinger</item>
+    </string-array>
 
 </resources>

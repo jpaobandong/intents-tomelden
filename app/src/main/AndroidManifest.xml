@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MainActivity">
         <activity
+            android:name=".Confirm"
+            android:exported="false" />
+        <activity
+            android:name=".Order"
+            android:exported="false" />
+        <activity
             android:name=".EventScheduler"
             android:exported="false" />
         <activity

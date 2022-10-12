@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Jupao/AndroidStudioProjects/MainActivity/app/src/main/res/layout/activity_confirm.xml" value="0.159375" />
         <entry key="..\:/Users/Jupao/AndroidStudioProjects/MainActivity/app/src/main/res/layout/activity_event_scheduler.xml" value="0.2046875" />
         <entry key="..\:/Users/Jupao/AndroidStudioProjects/MainActivity/app/src/main/res/layout/activity_main.xml" value="0.27309782608695654" />
         <entry key="..\:/Users/Jupao/AndroidStudioProjects/MainActivity/app/src/main/res/layout/activity_main2.xml" value="0.371875" />
+        <entry key="..\:/Users/Jupao/AndroidStudioProjects/MainActivity/app/src/main/res/layout/activity_order.xml" value="0.33" />
       </map>
     </option>
   </component>
